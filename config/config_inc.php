@@ -23,3 +23,13 @@ $g_administrator_email = 'jsiddhesh40@gmail.com';
 $g_webmaster_email = 'jsiddhesh40@gmail.com';
 $g_from_email = 'jsiddhesh40@gmail.com';
 $g_return_path_email = 'jsiddhesh40@gmail.com';
+
+$g_display_errors = array(
+    E_WARNING => DISPLAY_ERROR_INLINE,
+    E_NOTICE => DISPLAY_ERROR_INLINE,
+    E_USER_ERROR => DISPLAY_ERROR_INLINE,
+    E_USER_WARNING => DISPLAY_ERROR_INLINE,
+);
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
