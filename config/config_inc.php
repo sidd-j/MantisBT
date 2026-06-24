@@ -14,11 +14,13 @@ $g_enable_email_notification = ON;
 
 $g_phpMailer_method = PHPMAILER_METHOD_SMTP;
 $g_smtp_host = 'smtp.gmail.com';
-$g_smtp_port = 465;
-$g_smtp_connection_mode = 'ssl';
+$g_smtp_port = 587;
+$g_smtp_connection_mode = 'tls';
 $g_smtp_username = 'jsiddhesh40@gmail.com';
 $g_smtp_password = 'kbzw rluv dhxm ohpl';
+$g_smtp_auth = ON;
 
+$g_from_name = 'MantisBT';
 $g_administrator_email = 'jsiddhesh40@gmail.com';
 $g_webmaster_email = 'jsiddhesh40@gmail.com';
 $g_from_email = 'jsiddhesh40@gmail.com';
