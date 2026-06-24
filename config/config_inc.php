@@ -26,6 +26,9 @@ $g_webmaster_email = 'jsiddhesh40@gmail.com';
 $g_from_email = 'jsiddhesh40@gmail.com';
 $g_return_path_email = 'jsiddhesh40@gmail.com';
 
+$g_file_upload_method = DATABASE;
+$g_max_file_size = 50 * 1024 * 1024; # 50 MB
+
 $g_display_errors = array(
     E_WARNING => DISPLAY_ERROR_INLINE,
     E_NOTICE => DISPLAY_ERROR_INLINE,
