@@ -145,6 +145,10 @@ class MantisPHPSession extends MantisSession {
 			session_id( $p_session_id );
 		}
 
+		# Use PostgreSQL-backed sessions so they survive container restarts on Render
+		require_once( dirname( __FILE__ ) . '/db_session_handler.php' );
+		db_session_handler_init();
+
 		# Initialize the session
 		session_start();
 		$this->id = session_id();
